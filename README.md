@@ -1,5 +1,6 @@
 INFO
 - Simple npc repair system.
+- Price and fix time is based on vehicle's engine and body health
 
 DEPENCIES
 - Mythic Notify https://github.com/JayMontana36/mythic_notify
