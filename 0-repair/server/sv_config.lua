@@ -73,7 +73,7 @@ CreateThread(function()
             
             end
             cb(mechanicAmount)
-        else
+        end
     end)
 end)
 
