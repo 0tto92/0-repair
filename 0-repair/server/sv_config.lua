@@ -57,7 +57,7 @@ CreateThread(function()
     end)
 
     ESX.RegisterServerCallback('0-repair:server:config:employeeCheck', function(source, cb, location)
-        if config.containers['esxLegacy'] then
+        if config.settings['esxLegacy'] then
             cb(#ESX.GetExtendedPlayers('job', 'mechanic'))
         else
             local mechanicAmount = 0
